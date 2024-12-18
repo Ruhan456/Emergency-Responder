@@ -1,0 +1,59 @@
+/* Basic styling for the body and overall font settings */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the form container to center it and give it a box shadow for better visibility */
+.form-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Styling for form elements to display them in a column and provide spacing */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for labels to provide spacing between label text and input fields */
+label {
+    margin: 10px 0 5px;
+}
+
+/* General styling for various input fields including padding, border, and width adjustments */
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+select,
+textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Additional styling for file input to handle file uploads */
+input[type="file"] {
+    margin-top: 5px;
+}
+
+/* Styling for the submit button to enhance its appearance */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Hover effect for the button to indicate interactivity */
+button:hover {
+    background-color: #45a049;
+}
